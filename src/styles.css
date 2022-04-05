@@ -1,0 +1,32 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.fakeHeader {
+  position: fixed;
+  top: 8px;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 800;
+  z-index: 10;
+}
+
+.fakeHeader h1,
+.fakeHeader h2 {
+  display: flex;
+}
+
+h1 span,
+h2 span {
+  width: 150px;
+  display: inline-block;
+  flex: 0 0 auto;
+  /* opacity: 0; */
+}
+
+h2 span {
+  width: 200px;
+}
